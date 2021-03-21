@@ -1,0 +1,106 @@
+header {
+    background:skyblue;
+    background-image: url("https://www.shutterstock.com/image-photo/woman-wearing-anti-virus-protection-mask-1678274461");
+    background-size: cover;
+    
+    padding:20px;
+    margin-left: -20px;
+    margin-right:-20px;
+}
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:turquoise;
+    padding:50px;
+    margin-top: -10px;
+    margin-left:-10px;
+    margin-right:-10px;
+    list-style-type:none;
+    display:flex;
+    flex-direction: row;
+}
+
+section.nav {
+    list-style-type:none;
+    display:flex;
+}
+.dropdown {
+    width:200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.dropdown .nav-heading {
+    background-color:turquoise;
+    top:-50px;
+margin:0px;
+width:160px;
+height:50px;
+padding: -20px, -20px, -20px, -20px;
+line-height:20px;
+text-align: center;
+display:flex;
+justify-content: space-between;
+flex-direction:row;
+position:relative;
+}
+
+.dropdown ul {
+list-style:none;
+margin-top:2%;
+display: flex;
+justify-content: space-between;
+
+flex-direction: row;
+position: absolute;
+width:160px;
+}
+.dropdown ul li {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dropdown ul:hover {
+    color:skyblue;
+    
+}
+
+body {
+    background:rgb(243, 243, 243);
+    margin:10px;
+    padding:0px;
+}
+h1 {
+    color: rgb(248, 8, 8);
+    margin:0px;
+    padding:0;
+}
+h2 {
+    font-family: 'Garamond';
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: circle;
+    color: black;
+}
+li {
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+} 
+footer {
+    background-color: rgb(19, 85, 19);
+    margin:-10px;
+}
+section.footer-text {
+    color: white;
+    padding:.5cm;
+}
